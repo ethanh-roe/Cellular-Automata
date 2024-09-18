@@ -1,11 +1,10 @@
 package model;
 
-public class CellModel {
+public class Cell {
 	
-	int state;
+	int state = 0;
 	
-	public CellModel(int state) {
-		this.state = state;
+	public Cell() {
 	}
 	
 	public int getState() {
